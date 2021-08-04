@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gamerika4B1UActivity"
+    android:background="@drawable/bg7"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/gamerika4B1Upuan"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="Puan:10"
+            android:gravity="center"
+            android:background="@drawable/bg4"
+            android:textSize="24sp"
+            android:textColor="#fff"
+            android:textStyle="bold|italic"
+            android:layout_margin="10dp"
+            android:layout_centerVertical="true"/>
+
+        <LinearLayout
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/agbg1"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/gamerika4B1Ucan1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_favorite_black_aktiv_24dp"
+                />
+            <ImageView
+                android:id="@+id/gamerika4B1Ucan2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_favorite_black_aktiv_24dp"
+                />
+            <ImageView
+                android:id="@+id/gamerika4B1Ucan3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_favorite_black_aktiv_24dp"
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/gamerika4B1Uisim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Azerbaycan"
+        android:textColor="#fff"
+        android:textSize="28sp"
+        android:textStyle="bold|italic"
+        android:shadowRadius="3"
+        android:shadowDy="3"
+        android:shadowDx="3"
+        android:shadowColor="#222"
+        android:layout_weight="1.2"/>
+
+
+    <LinearLayout
+        android:id="@+id/gamerika4B1Ulinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!--        esas linear-->
+
+
+
+
+
+        <!--        esas linear-->
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

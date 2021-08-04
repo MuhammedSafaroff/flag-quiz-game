@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GamerikaTabloActivity"
+    android:orientation="vertical"
+    android:background="@drawable/list_v_bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageButton
+            android:id="@+id/gamerikaTabloHome"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_home_black_24dp"
+            />
+        <EditText
+            android:id="@+id/gamerikaTabloedittxt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edittxt_bg"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"
+            android:hint="@string/search"
+            android:textSize="22sp"
+            android:textColor="#111"
+            android:textStyle="bold|italic"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/gamerikaList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>
